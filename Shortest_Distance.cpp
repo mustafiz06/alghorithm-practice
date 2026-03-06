@@ -7,7 +7,6 @@ int main() {
 
     const long long INF = 1e18;
     vector<vector<long long>> dist(n+1, vector<long long>(n+1, INF));
-
     for(int i=1;i<=n;i++)
         dist[i][i] = 0;
 
